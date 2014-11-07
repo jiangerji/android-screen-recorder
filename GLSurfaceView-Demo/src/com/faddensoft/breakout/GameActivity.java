@@ -93,7 +93,7 @@ public class GameActivity extends Activity {
             @Override
             public void surfaceChanged(
                     SurfaceHolder holder, int format, int width, int height) {
-                mCapturing.initCapturing(width, height, 30, 1000);
+                mCapturing.initCapturing(768, 1024, 30, 1000);
                 mCapturing.startCapturing(Environment.getExternalStorageDirectory()
                         + "/gl.mp4");
             }
